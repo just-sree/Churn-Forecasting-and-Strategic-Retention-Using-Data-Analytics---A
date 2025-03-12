@@ -1,0 +1,14 @@
+Financial Variables:
+MonthlyCharges
+
+Usage Variables:
+tenure
+
+Demographic Variables:
+SeniorCitizen
+
+Other Numerical Variables:
+
+
+Categorical Variables:
+customerID, gender, Partner, Dependents, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, TotalCharges, Churn

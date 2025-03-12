@@ -1,0 +1,8 @@
+Binary Variables:
+gender, Partner, Dependents, PhoneService, PaperlessBilling, Churn
+
+Multi-Category Variables:
+MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaymentMethod
+
+High Cardinality Variables:
+customerID

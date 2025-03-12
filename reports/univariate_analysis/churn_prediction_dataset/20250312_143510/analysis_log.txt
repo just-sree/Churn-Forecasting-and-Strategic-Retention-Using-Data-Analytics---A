@@ -1,0 +1,167 @@
+
+================================================================================
+CHURN PREDICTION DATASET ANALYSIS
+================================================================================
+Analysis performed on: 2025-03-12 14:35:10
+
+Dataset Shape: (7043, 21)
+Memory Usage: 1.13 MB
+
+Financial Metrics Analysis:
+          MonthlyCharges
+count            7043.00
+mean               64.76
+std                30.09
+min                18.25
+25%                35.50
+50%                70.35
+75%                89.85
+max               118.75
+skewness           -0.22
+kurtosis           -1.26
+
+Usage Metrics Analysis:
+           tenure
+count     7043.00
+mean        32.37
+std         24.56
+min          0.00
+25%          9.00
+50%         29.00
+75%         55.00
+max         72.00
+skewness     0.24
+kurtosis    -1.39
+
+Demographic Metrics Analysis:
+          SeniorCitizen
+count           7043.00
+mean               0.16
+std                0.37
+min                0.00
+25%                0.00
+50%                0.00
+75%                0.00
+max                1.00
+skewness           1.83
+kurtosis           1.36
+
+Categorical Variables Analysis:
+
+Binary Categorical Variables:
+
+gender:
+        Count  Percentage
+gender                   
+Male     3555       50.48
+Female   3488       49.52
+
+Partner:
+         Count  Percentage
+Partner                   
+No        3641        51.7
+Yes       3402        48.3
+
+Dependents:
+            Count  Percentage
+Dependents                   
+No           4933       70.04
+Yes          2110       29.96
+
+PhoneService:
+              Count  Percentage
+PhoneService                   
+Yes            6361       90.32
+No              682        9.68
+
+PaperlessBilling:
+                  Count  Percentage
+PaperlessBilling                   
+Yes                4171       59.22
+No                 2872       40.78
+
+Churn:
+       Count  Percentage
+Churn                   
+No      5174       73.46
+Yes     1869       26.54
+
+Multi-Category Variables:
+
+MultipleLines:
+                  Count  Percentage
+MultipleLines                      
+No                 3390       48.13
+Yes                2971       42.18
+No phone service    682        9.68
+
+InternetService:
+                 Count  Percentage
+InternetService                   
+Fiber optic       3096       43.96
+DSL               2421       34.37
+No                1526       21.67
+
+OnlineSecurity:
+                     Count  Percentage
+OnlineSecurity                        
+No                    3498       49.67
+Yes                   2019       28.67
+No internet service   1526       21.67
+
+OnlineBackup:
+                     Count  Percentage
+OnlineBackup                          
+No                    3088       43.84
+Yes                   2429       34.49
+No internet service   1526       21.67
+
+DeviceProtection:
+                     Count  Percentage
+DeviceProtection                      
+No                    3095       43.94
+Yes                   2422       34.39
+No internet service   1526       21.67
+
+TechSupport:
+                     Count  Percentage
+TechSupport                           
+No                    3473       49.31
+Yes                   2044       29.02
+No internet service   1526       21.67
+
+StreamingTV:
+                     Count  Percentage
+StreamingTV                           
+No                    2810       39.90
+Yes                   2707       38.44
+No internet service   1526       21.67
+
+StreamingMovies:
+                     Count  Percentage
+StreamingMovies                       
+No                    2785       39.54
+Yes                   2732       38.79
+No internet service   1526       21.67
+
+Contract:
+                Count  Percentage
+Contract                         
+Month-to-month   3875       55.02
+Two year         1695       24.07
+One year         1473       20.91
+
+PaymentMethod:
+                           Count  Percentage
+PaymentMethod                               
+Electronic check            2365       33.58
+Mailed check                1612       22.89
+Bank transfer (automatic)   1544       21.92
+Credit card (automatic)     1522       21.61
+
+High Cardinality Categorical Variables:
+customerID: 7043 unique values
+TotalCharges: 6531 unique values
+
+Churn Analysis:
+Overall Churn Rate: 26.54%

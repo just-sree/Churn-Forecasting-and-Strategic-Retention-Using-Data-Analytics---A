@@ -1,0 +1,66 @@
+        customerID gender  SeniorCitizen Partner Dependents       tenure  \
+count         7043   7043    7043.000000    7043       7043  7043.000000   
+unique        7043      2            NaN       2          2          NaN   
+top     7590-VHVEG   Male            NaN      No         No          NaN   
+freq             1   3555            NaN    3641       4933          NaN   
+mean           NaN    NaN       0.162147     NaN        NaN    32.371149   
+std            NaN    NaN       0.368612     NaN        NaN    24.559481   
+min            NaN    NaN       0.000000     NaN        NaN     0.000000   
+25%            NaN    NaN       0.000000     NaN        NaN     9.000000   
+50%            NaN    NaN       0.000000     NaN        NaN    29.000000   
+75%            NaN    NaN       0.000000     NaN        NaN    55.000000   
+max            NaN    NaN       1.000000     NaN        NaN    72.000000   
+
+       PhoneService MultipleLines InternetService OnlineSecurity  ...  \
+count          7043          7043            7043           7043  ...   
+unique            2             3               3              3  ...   
+top             Yes            No     Fiber optic             No  ...   
+freq           6361          3390            3096           3498  ...   
+mean            NaN           NaN             NaN            NaN  ...   
+std             NaN           NaN             NaN            NaN  ...   
+min             NaN           NaN             NaN            NaN  ...   
+25%             NaN           NaN             NaN            NaN  ...   
+50%             NaN           NaN             NaN            NaN  ...   
+75%             NaN           NaN             NaN            NaN  ...   
+max             NaN           NaN             NaN            NaN  ...   
+
+       TechSupport StreamingTV StreamingMovies        Contract  \
+count         7043        7043            7043            7043   
+unique           3           3               3               3   
+top             No          No              No  Month-to-month   
+freq          3473        2810            2785            3875   
+mean           NaN         NaN             NaN             NaN   
+std            NaN         NaN             NaN             NaN   
+min            NaN         NaN             NaN             NaN   
+25%            NaN         NaN             NaN             NaN   
+50%            NaN         NaN             NaN             NaN   
+75%            NaN         NaN             NaN             NaN   
+max            NaN         NaN             NaN             NaN   
+
+       PaperlessBilling     PaymentMethod MonthlyCharges TotalCharges  Churn  \
+count              7043              7043    7043.000000  7043.000000   7043   
+unique                2                 4            NaN          NaN      2   
+top                 Yes  Electronic check            NaN          NaN     No   
+freq               4171              2365            NaN          NaN   5174   
+mean                NaN               NaN      64.761692  2281.916928    NaN   
+std                 NaN               NaN      30.090047  2265.270398    NaN   
+min                 NaN               NaN      18.250000    18.800000    NaN   
+25%                 NaN               NaN      35.500000   402.225000    NaN   
+50%                 NaN               NaN      70.350000  1397.475000    NaN   
+75%                 NaN               NaN      89.850000  3786.600000    NaN   
+max                 NaN               NaN     118.750000  8684.800000    NaN   
+
+          CLTV  
+count   7043.0  
+unique     NaN  
+top        NaN  
+freq       NaN  
+mean       0.0  
+std        0.0  
+min        0.0  
+25%        0.0  
+50%        0.0  
+75%        0.0  
+max        0.0  
+
+[11 rows x 22 columns]

@@ -1,0 +1,49 @@
+
+================================================================================
+TELCO CUSTOMER CHURN DATASET ANALYSIS
+================================================================================
+Analysis performed on: 2025-03-12 14:24:08
+
+Dataset Shape: (4225, 52)
+Memory Usage: 1.68 MB
+
+Missing Values Analysis:
+                Missing Values  Percentage
+Churn Category            3104       73.47
+
+Financial Metrics Analysis:
+          Avg Monthly Long Distance Charges     CLTV  Monthly Charge  \
+count                               4225.00  4225.00         4225.00   
+mean                                  22.77  4409.75           64.91   
+std                                   15.43  1170.60           29.93   
+min                                    0.00  2003.00           18.25   
+25%                                    9.05  3493.00           38.55   
+50%                                   22.57  4531.00           70.20   
+75%                                   36.17  5381.00           89.75   
+max                                   49.99  6500.00          118.75   
+skewness                               0.06    -0.32           -0.22   
+kurtosis                              -1.25    -0.90           -1.24   
+
+          Total Charges  Total Extra Data Charges  \
+count           4225.00                   4225.00   
+mean            2306.08                      6.97   
+std             2271.45                     25.25   
+min               18.80                      0.00   
+25%              401.50                      0.00   
+50%             1424.60                      0.00   
+75%             3846.75                      0.00   
+max             8672.45                    150.00   
+skewness           0.94                      4.05   
+kurtosis          -0.27                     16.08   
+
+          Total Long Distance Charges  Total Refunds  Total Revenue  
+count                         4225.00        4225.00        4225.00  
+mean                           754.72           1.95        3065.81  
+std                            854.91           7.81        2884.82  
+min                              0.00           0.00          21.36  
+25%                             67.68           0.00         592.75  
+50%                            396.64           0.00        2151.47  
+75%                           1200.00           0.00        4845.75  
+max                           3564.00          49.79       11979.34  
+skewness                         1.21           4.30           0.90  
+kurtosis                         0.54          18.18          -0.23  

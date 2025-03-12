@@ -1,0 +1,14 @@
+Financial Variables:
+Avg Monthly Long Distance Charges, CLTV, Monthly Charge, Total Charges, Total Extra Data Charges, Total Long Distance Charges, Total Refunds, Total Revenue
+
+Usage Variables:
+Avg Monthly GB Download, Churn Score, Satisfaction Score, Tenure in Months, Total Extra Data Charges, Unlimited Data
+
+Demographic Variables:
+Age, Dependents, Number of Dependents, Population, Senior Citizen
+
+Other Numerical Variables:
+Device Protection Plan, Internet Service, Latitude, Longitude, Married, Multiple Lines, Number of Referrals, Online Backup, Online Security, Paperless Billing, Partner, Phone Service, Premium Tech Support, Referred a Friend, Streaming Movies, Streaming Music, Streaming TV, Under 30, Zip Code, Churn
+
+Categorical Variables:
+Churn Category, Churn Reason, City, Contract, Country, Customer ID, Customer Status, Gender, Internet Type, Lat Long, Offer, Payment Method, Quarter, State

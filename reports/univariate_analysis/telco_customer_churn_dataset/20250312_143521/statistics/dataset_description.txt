@@ -1,0 +1,79 @@
+                Age  Avg Monthly GB Download  \
+count   4225.000000              4225.000000   
+unique          NaN                      NaN   
+top             NaN                      NaN   
+freq            NaN                      NaN   
+mean      46.451124                20.740828   
+std       16.731518                20.366105   
+min       19.000000                 0.000000   
+25%       32.000000                 4.000000   
+50%       46.000000                17.000000   
+75%       60.000000                27.000000   
+max       80.000000                85.000000   
+
+        Avg Monthly Long Distance Charges Churn Category  \
+count                         4225.000000           1121   
+unique                                NaN              5   
+top                                   NaN     Competitor   
+freq                                  NaN            486   
+mean                            22.766963            NaN   
+std                             15.429992            NaN   
+min                              0.000000            NaN   
+25%                              9.050000            NaN   
+50%                             22.570000            NaN   
+75%                             36.170000            NaN   
+max                             49.990000            NaN   
+
+                         Churn Reason  Churn Score         City         CLTV  \
+count                            1121  4225.000000         4225  4225.000000   
+unique                             20          NaN         1085          NaN   
+top     Competitor had better devices          NaN  Los Angeles          NaN   
+freq                              188          NaN          175          NaN   
+mean                              NaN    58.281183          NaN  4409.751243   
+std                               NaN    21.197931          NaN  1170.599119   
+min                               NaN     5.000000          NaN  2003.000000   
+25%                               NaN    40.000000          NaN  3493.000000   
+50%                               NaN    61.000000          NaN  4531.000000   
+75%                               NaN    75.000000          NaN  5381.000000   
+max                               NaN    96.000000          NaN  6500.000000   
+
+              Contract        Country  ... Tenure in Months Total Charges  \
+count             4225           4225  ...      4225.000000   4225.000000   
+unique               3              1  ...              NaN           NaN   
+top     Month-to-Month  United States  ...              NaN           NaN   
+freq              2193           4225  ...              NaN           NaN   
+mean               NaN            NaN  ...        32.681893   2306.078107   
+std                NaN            NaN  ...        24.621041   2271.448881   
+min                NaN            NaN  ...         1.000000     18.800000   
+25%                NaN            NaN  ...         9.000000    401.500000   
+50%                NaN            NaN  ...        30.000000   1424.600000   
+75%                NaN            NaN  ...        56.000000   3846.750000   
+max                NaN            NaN  ...        72.000000   8672.450000   
+
+        Total Extra Data Charges  Total Long Distance Charges Total Refunds  \
+count                4225.000000                  4225.000000   4225.000000   
+unique                       NaN                          NaN           NaN   
+top                          NaN                          NaN           NaN   
+freq                         NaN                          NaN           NaN   
+mean                    6.965680                   754.719141      1.953846   
+std                    25.250169                   854.909725      7.814374   
+min                     0.000000                     0.000000      0.000000   
+25%                     0.000000                    67.680000      0.000000   
+50%                     0.000000                   396.640000      0.000000   
+75%                     0.000000                  1200.000000      0.000000   
+max                   150.000000                  3564.000000     49.790000   
+
+        Total Revenue     Under 30 Unlimited Data      Zip Code        Churn  
+count     4225.000000  4225.000000    4225.000000   4225.000000  4225.000000  
+unique            NaN          NaN            NaN           NaN          NaN  
+top               NaN          NaN            NaN           NaN          NaN  
+freq              NaN          NaN            NaN           NaN          NaN  
+mean      3065.809082     0.200000       0.677870  93491.892781     0.265325  
+std       2884.817379     0.400047       0.467348   1863.337187     0.441559  
+min         21.360000     0.000000       0.000000  90001.000000     0.000000  
+25%        592.750000     0.000000       0.000000  92102.000000     0.000000  
+50%       2151.470000     0.000000       1.000000  93513.000000     0.000000  
+75%       4845.750000     0.000000       1.000000  95337.000000     1.000000  
+max      11979.340000     1.000000       1.000000  96150.000000     1.000000  
+
+[11 rows x 52 columns]

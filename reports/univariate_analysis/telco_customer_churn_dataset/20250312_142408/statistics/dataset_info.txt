@@ -1,0 +1,59 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4225 entries, 0 to 4224
+Data columns (total 52 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   Age                                4225 non-null   int64  
+ 1   Avg Monthly GB Download            4225 non-null   int64  
+ 2   Avg Monthly Long Distance Charges  4225 non-null   float64
+ 3   Churn Category                     1121 non-null   object 
+ 4   Churn Reason                       4225 non-null   object 
+ 5   Churn Score                        4225 non-null   int64  
+ 6   City                               4225 non-null   object 
+ 7   CLTV                               4225 non-null   int64  
+ 8   Contract                           4225 non-null   object 
+ 9   Country                            4225 non-null   object 
+ 10  Customer ID                        4225 non-null   object 
+ 11  Customer Status                    4225 non-null   object 
+ 12  Dependents                         4225 non-null   int64  
+ 13  Device Protection Plan             4225 non-null   int64  
+ 14  Gender                             4225 non-null   object 
+ 15  Internet Service                   4225 non-null   int64  
+ 16  Internet Type                      4225 non-null   object 
+ 17  Lat Long                           4225 non-null   object 
+ 18  Latitude                           4225 non-null   float64
+ 19  Longitude                          4225 non-null   float64
+ 20  Married                            4225 non-null   int64  
+ 21  Monthly Charge                     4225 non-null   float64
+ 22  Multiple Lines                     4225 non-null   int64  
+ 23  Number of Dependents               4225 non-null   int64  
+ 24  Number of Referrals                4225 non-null   int64  
+ 25  Offer                              4225 non-null   object 
+ 26  Online Backup                      4225 non-null   int64  
+ 27  Online Security                    4225 non-null   int64  
+ 28  Paperless Billing                  4225 non-null   int64  
+ 29  Partner                            4225 non-null   int64  
+ 30  Payment Method                     4225 non-null   object 
+ 31  Phone Service                      4225 non-null   int64  
+ 32  Population                         4225 non-null   int64  
+ 33  Premium Tech Support               4225 non-null   int64  
+ 34  Quarter                            4225 non-null   object 
+ 35  Referred a Friend                  4225 non-null   int64  
+ 36  Satisfaction Score                 4225 non-null   int64  
+ 37  Senior Citizen                     4225 non-null   int64  
+ 38  State                              4225 non-null   object 
+ 39  Streaming Movies                   4225 non-null   int64  
+ 40  Streaming Music                    4225 non-null   int64  
+ 41  Streaming TV                       4225 non-null   int64  
+ 42  Tenure in Months                   4225 non-null   int64  
+ 43  Total Charges                      4225 non-null   float64
+ 44  Total Extra Data Charges           4225 non-null   int64  
+ 45  Total Long Distance Charges        4225 non-null   float64
+ 46  Total Refunds                      4225 non-null   float64
+ 47  Total Revenue                      4225 non-null   float64
+ 48  Under 30                           4225 non-null   int64  
+ 49  Unlimited Data                     4225 non-null   int64  
+ 50  Zip Code                           4225 non-null   int64  
+ 51  Churn                              4225 non-null   int64  
+dtypes: float64(8), int64(30), object(14)
+memory usage: 1.7+ MB
