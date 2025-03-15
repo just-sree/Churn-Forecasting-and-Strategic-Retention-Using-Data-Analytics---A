@@ -1,0 +1,6 @@
+Starting multivariate analysis for Telco Customer Churn Dataset
+Correlation matrix created and saved.
+Skipping pairplot due to missing columns.
+Chi-square test results saved.
+Skipping outlier analysis due to missing 'MonthlyCharges' column.
+Summary document created.
