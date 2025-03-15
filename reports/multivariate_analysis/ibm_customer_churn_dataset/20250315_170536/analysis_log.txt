@@ -1,0 +1,6 @@
+Starting multivariate analysis for IBM Customer Churn Dataset
+Correlation matrix created and saved.
+Pairplot created and saved.
+Chi-square test results saved.
+Outlier analysis completed. Outlier percentage: 0.00%.
+Summary document created.

@@ -1,0 +1,14 @@
+# IBM Customer Churn Dataset Multivariate Analysis Summary
+
+Analysis performed on: 2025-03-15 17:05:40
+
+## Key Results:
+- Correlation matrix shows relationships between numerical features.
+- Pairplot visualizes distributions and relationships among selected features.
+- Chi-square tests highlight significant categorical predictors of churn.
+- Outlier analysis revealed that 0.00% of records have unusual Monthly Charges.
+
+## Recommendations for Next Steps:
+- Further investigation into high-correlation pairs for feature reduction.
+- Advanced feature engineering based on identified significant categorical features.
+- Consider outlier handling strategies in predictive modeling.
